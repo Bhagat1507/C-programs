@@ -1,0 +1,22 @@
+//Greatest of the Three numbers
+
+#include<stdio.h>
+
+int main(){
+    int n=12;
+    int m=22;
+    int o=12;
+    int max=0;
+    
+    if(n>m && n>o){
+        max=n;
+    }
+    
+    else if(m>n && m>o){
+        max=m;
+    }
+    else{
+        max=o;
+    }
+    printf("%d is max number of three.",max);
+}
