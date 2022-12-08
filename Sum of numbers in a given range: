@@ -1,0 +1,13 @@
+//Sum of numbers in a given range:
+
+#include<stdio.h>
+
+int main(){
+    int n=10;
+    int m=2;
+    int sum=0;
+    for(int i=1;i<=n;i+=m){
+        sum+=i;
+    }
+    printf("%d is the sum.",sum);
+}
